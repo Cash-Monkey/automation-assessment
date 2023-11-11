@@ -16,3 +16,30 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+
+# eclipse settings
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# IntelliJ
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+*.iws
+out/
+
+# TestNG reports
+test-output/
