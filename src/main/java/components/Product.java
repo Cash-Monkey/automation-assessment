@@ -50,7 +50,7 @@ public class Product extends Component {
 	 * @return true if it does
 	 */
 	public boolean hasType() {
-		return root.findElements(typeBy).size() > 0;
+		return root.findElements(typeBy).isEmpty();
 	}
 	
 	public String getName() {
