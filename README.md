@@ -14,12 +14,12 @@ Open a console of your choice.
 Make sure you have Maven installed with the console command: `mvn -version`  
   
 If you see an error similar to: *"mvn: command not found"* 
-then you will have to [download](https://maven.apache.org/download.cgi) 
-and [install](https://maven.apache.org/install.html) 
+then you will have to *[download](https://maven.apache.org/download.cgi)* 
+and *[install](https://maven.apache.org/install.html)* 
 Maven first.
 
 Once your Maven is configured, navigate to the root directory of this project (with the pom.xml).
-Setup and execute the project with this console command:
+Setup and execute the project with this console command:  
 `mvn clean install test`
 
 That's it. The console should start moving and a Chrome window should open soon after.
