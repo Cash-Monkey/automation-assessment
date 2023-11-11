@@ -1,0 +1,7 @@
+<suite name="QA Engineer suite" parallel="classes" thread-count="4">
+	<test name="stainless work table">
+		<packages>
+			<package name="assessment"/>
+		</packages>
+	</test>
+</suite>
