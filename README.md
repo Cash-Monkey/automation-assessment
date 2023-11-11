@@ -10,12 +10,19 @@ Once you have the project downloaded you should see 4 files in the root:
 
 ## For a first time run
 The recommended way to execute the tests (and therefore the project) is through Maven.
-Navigate to the root directory and open a console (not necessarily in that order).
+Open a console of your choice.
+Make sure you have Maven installed with the console command: `mvn -version`  
+  
+If you see an error similar to: *"mvn: command not found"* 
+then you will have to [download](https://maven.apache.org/download.cgi) 
+and [install](https://maven.apache.org/install.html) 
+Maven first.
 
-Use this command from the console of choice to setup and execute the project:
+Once your Maven is configured, navigate to the root directory of this project (with the pom.xml).
+Setup and execute the project with this console command:
 `mvn clean install test`
 
-That's it.
+That's it. The console should start moving and a Chrome window should open soon after.
 
 ## Project details
 There are 3 tests: cartAddRemove, cartAddRemoveOne, and checkAllNames
