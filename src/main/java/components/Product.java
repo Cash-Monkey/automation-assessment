@@ -13,7 +13,7 @@ public class Product extends Component {
 	
 	private By nameBy = By.cssSelector("*[data-testid=itemDescription]");
 	private By addBy = By.name("addToCartButton");
-	private By typeBy = By.cssSelector("select[data-testid='itemAddCartGrouping'");
+	private By typeBy = By.cssSelector("select[data-testid='itemAddCartGrouping']");
 	
 	/**
 	 * A single result cell on the SearchPage
@@ -50,7 +50,7 @@ public class Product extends Component {
 	 * @return true if it does
 	 */
 	public boolean hasType() {
-		return root.findElements(typeBy).isEmpty();
+		return !root.findElements(typeBy).isEmpty();
 	}
 	
 	public String getName() {

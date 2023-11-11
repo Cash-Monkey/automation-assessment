@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>webstaurantstore</groupId>
 	<artifactId>webstaurantAssessment</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>Justin Rivera submission for the QA Engineer position</description>
 
 	<properties>
