@@ -33,6 +33,8 @@ There are 3 tests:
 I expect that 2/3 tests will pass with checkAllNames being the one to fail.
 On average, the tests take around 10 minutes to execute 
 (anticipating 1 test failure; if that test ran fully it would take slightly longer).
+
+Reports are published to the test-output folder with the emailable-report offering an easy to read summary. 
   
 <br/>  
   
